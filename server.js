@@ -36,7 +36,7 @@ app.post('/metrics', async (req, res) => {
 // simple health route
 app.get('/health', (_req, res) => res.json({ ok: true, mode: MODE }));
 
-// util: discover a likely LAN IP for QR
+// util: discover a likely LAN IP for QR 
 function getLocalIp() {
   const ifaces = os.networkInterfaces();
   for (const name of Object.keys(ifaces)) {
