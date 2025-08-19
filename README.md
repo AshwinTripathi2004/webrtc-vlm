@@ -61,7 +61,7 @@ To use your phone's camera via LAN IP, you must serve the app over HTTPS. For lo
 3. Access via `https://<LAN-IP>:3000` and accept the browser warning.
 
 ---
-
+ 
 ## Supported Objects
 
 Detects 80+ common objects (COCO-SSD): person, car, dog, cat, bottle, etc.
