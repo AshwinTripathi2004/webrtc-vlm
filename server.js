@@ -16,7 +16,7 @@ const MODE = process.env.MODE || 'wasm'; // placeholder switch for README/CLI pa
 
 // Optional: Enable CORS if needed for cross-origin requests
 // const cors = require('cors');
-// app.use(cors());
+//
 
 app.use(express.json({ limit: '2mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
