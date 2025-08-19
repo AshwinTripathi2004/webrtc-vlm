@@ -78,7 +78,7 @@ Detects 80+ common objects (COCO-SSD): person, car, dog, cat, bottle, etc.
 
 ## Deliverables
 
-1. Dockerfile, docker-compose.yml, start.sh
+1. Dockerfile, docker-compose.yml, start.sh 
 2. README.md (this file)
 3. metrics.json (after running benchmark)
 4. 1-min Loom video (to be recorded)
